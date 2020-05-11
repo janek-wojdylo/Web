@@ -1,0 +1,59 @@
+h1 {
+  color: blue;
+}
+footer {
+  background: #00abe7;
+}
+
+.navigation {
+  background: #00abe7;
+  padding: 16px 50px 16px 70px;
+  border-radius: 10px;
+  position: fixed;
+}
+.navigation__link {
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main__title {
+  padding: 16px;
+}
+
+.header__name {
+  padding: 30px 40px 5px 100px;
+  
+}
+.section {
+  padding-left: 40px;
+}
+.section__who {
+  margin: 0;
+}
+.section__photo {
+  border-radius: 65px;
+}
+.section__aboutMe{
+    padding :16px;
+    border: 1px #ccc solid
+}
+
+.notes__Week {
+  color: blue;
+  padding-left: 110px;
+}
+.kalendarz {
+  margin: 40px 40px 0 40px;
+}
+.notes {
+  padding: 0 30px 0 100px;
+  display: ;
+}
+.notes__text {
+  margin-left: 40px;
+  margin-right: 250px;
+  border: 1px #ccc solid;
+  padding: 16px
+}
