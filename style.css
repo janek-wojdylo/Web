@@ -4,7 +4,10 @@ h1 {
 footer {
   background: #00abe7;
 }
-
+.body{
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .navigation {
   background: #00abe7;
   padding: 16px 50px 16px 70px;
@@ -19,18 +22,17 @@ footer {
 }
 
 .main__title {
-  padding: 16px;
+ padding: 16px;
 }
 
 .header__name {
   padding: 30px 40px 5px 100px;
   
 }
-.section {
-  padding-left: 40px;
+
 }
 .section__who {
-  margin: 0;
+  margin: 16px;
 }
 .section__photo {
   border-radius: 65px;
@@ -56,4 +58,17 @@ footer {
   margin-right: 250px;
   border: 1px #ccc solid;
   padding: 16px
+}
+.mainHTML {
+  height: 400px
+}
+.sectionHTML {
+
+}
+.sectionHTML__h2{
+  padding: 60px 60px 0 60px
+}
+.bodyHTML{
+  max-width: 600px;
+    margin: auto;
 }
