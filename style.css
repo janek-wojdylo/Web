@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *:after {
+  box-sizing:inherit;
+}
+
+
 h1 {
   color: blue;
 }
@@ -12,7 +21,7 @@ footer {
   background: #00abe7;
   padding: 16px 50px 16px 70px;
   border-radius: 10px;
-  position: fixed;
+  position: ;
 }
 .navigation__link {
   display: inline-block;
