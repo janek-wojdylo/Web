@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>   
-     <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+    <link href="ormalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="body">
-    <header>
+    <header class="header">
       <nav class="navigation">
         <a class="navigation__link" href="indexNew.html">Strona główna</a>
         <a class="navigation__link" href="notatki.html">Notatki</a>
@@ -16,16 +16,20 @@
         <a class="navigation__link" href="CSS.html">CSS</a>
         <a class="navigation__link" href="JS.html">JavaScript</a>
       </nav>
+     
     </header>
     <main class="main__title">
-      <header class="header__name">
-        <h1>Janek Wojdyło – strona domowa </h1>
+      <header class="header__name header__name--js">
+        <h1 class="header__name header__name--h1">
+          Janek Wojdyło – strona domowa
+        </h1>
+        <button class="action--js">Zmień nagłówek</button>
       </header>
 
       <section class="section">
-        <h2 class="section__who section__who--js">Kim jestem?</h2>
-        <img class="section__photo" src="JAJAAJA222.jpg" alt="Janek na Zawracie" />
-
+        <h2 class="section__who"><b>Kim jestem</b></h2>
+      
+        <img class="section__photo" src="JAJAAJA222.jpg" alt="janek w gorach" />
         <p class="section__aboutMe">
           Hej! Mam 34 lata od 12 lat pracuje sezonowo jako instruktor
           narciarstwa i snowboardu. Ostatnią zimę spędziłem w Białce
@@ -33,12 +37,13 @@
           <a href="https://szkolastok.pl/">„STOK”</a>. <br />Latem gram w tenisa
           i pracuje w firmie związanej z ruchem turystycznym w Krakowie.
         </p>
-        <p class="section__aboutMe section__aboutMe--js"></p>
       </section>
     </main>
-    <footer>
-      Strona domowa Janka Wojdyło, wszystkie treści są efektem udziału w
-      szkoleniu WTF : Co ten frontend.
+    <footer class="footer">
+      <b
+        >Strona domowa Janka Wojdyło, wszystkie treści są efektem udziału w
+        szkoleniu WTF : Co ten frontend.</b
+      >
     </footer>
     <script src="main.js"></script>
   </body>

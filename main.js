@@ -1,23 +1,25 @@
-alert();
+console.log(typeof 2);
+console.log(typeof '2');
 
-const name = "Janek";
-const age = 34;
-
-const greet = (age, name) => {
-    console.log(`Hej, nazywam się ${name} i mam ${age}lata`);
-
-const heading = document.querySelector(".section__aboutMe--js");
-
-function greetOld(age, name) {
-  console.log(`Hej, nazywam się ${name} i mam ${age}lata`);
+if ( 2 !=='2' ){
+  console.log('Java to Javascript');
 }
 
-const greet = (age, name) => {
-  console.log(`Hej, nazywam się ${name} i mam ${age}lata`);
-};
-const calculate = (myNumber) => myNumber * 7;
-const myResult = calculate(7);
-console.log(myResult);
+const button = document.querySelector('.action--js');
 
-createContent(".section__aboutMe--js", "Dzień dobry");
-createContent(".section__who--js", "Podmieniony tytuł");
+console.log(button)
+
+button.addEventListener('click',() => {
+  const heading = document.querySelector(".header__name--js");
+  heading.innerHTML = `ahoj hej hej hej`;
+  heading.classList.toggle('klasa-z-js')
+});
+
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click',() =>{
+  const nav = document.querySelector('.navigation--js');
+  nav.classList.toggle('navigation--open')
+}
+)

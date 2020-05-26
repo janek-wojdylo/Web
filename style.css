@@ -1,3 +1,11 @@
+img {
+  border-radius: 30px;
+  max-width: 500px;
+  max-height: 400px;
+  display: block;
+  max-width: 100%;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -5,50 +13,73 @@ html {
 *, *::before, *:after {
   box-sizing:inherit;
 }
+.header{
+  background: ;
+  min-height: ;
+  position: ;
+  top:0;
+  width:100%;
+}
 
 
 h1 {
-  color: blue;
+  color: rgb(21, 37, 182);
 }
-footer {
-  background: #00abe7;
-}
+
 .body{
+  background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(12,181,172,1) 18%, rgba(6,134,155,1) 38%, rgba(3,138,181,1) 59%, rgba(0,164,255,1) 79%);
   max-width: 1000px;
   margin: 0 auto;
+  
+  background-size: cover;
+  background-attachment: local;
+  
 }
-.navigation {
-  background: #00abe7;
-  padding: 16px 50px 16px 70px;
-  border-radius: 10px;
-  position: ;
+.navigation{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255,255,255,0.4);
+  width: auto;
+  height: 40px;
 }
+
+
 .navigation__link {
-  display: inline-block;
-  margin-right: 30px;
-  text-decoration: none;
-  font-weight: bold;
+  
+  margin-left: 30px;
+      margin-top: 10px;
+      text-decoration: none;
+      font-weight: bold;
 }
 
 .main__title {
- padding: 16px;
+ padding:0 16px 16px 16px;
+ margin:auto;
 }
 
 .header__name {
-  padding: 30px 40px 5px 100px;
+  padding: 0px 40px 0px 100px;
+  }
+.header__name--h1{
+  background: rgb(255,255,255,0.5);
   
 }
 
+.section {
+  display: inline ;
+  ;
 }
 .section__who {
-  margin: 16px;
+  color: black;
+  margin: 0px 820px 15px 30px;
+  background: rgb(255,255,255,0.3);
 }
-.section__photo {
-  border-radius: 65px;
 }
+
 .section__aboutMe{
     padding :16px;
-    border: 1px #ccc solid
+    border: 1px #ccc solid;
+    background-color: rgb(255,255,255,0.6);
 }
 
 .notes__Week {
@@ -57,10 +88,25 @@ footer {
 }
 .kalendarz {
   margin: 40px 40px 0 40px;
+  border-radius: 20px;
+  background: rgb(255,255,255,0.3);
+  max-height: 200px;
 }
 .notes {
   padding: 0 30px 0 100px;
   display: ;
+}
+.notes__body{
+  background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(12,181,172,1) 18%, rgba(6,134,155,1) 38%, rgba(3,138,181,1) 59%, rgba(0,164,255,1) 79%);
+}
+.notes__footer{
+  background: rgb(255,255,255,0.8);
+
+  color: #03188d;
+  display: flex;
+}
+.notes__main {
+  display: flex;
 }
 .notes__text {
   margin-left: 40px;
@@ -68,16 +114,10 @@ footer {
   border: 1px #ccc solid;
   padding: 16px
 }
-.mainHTML {
-  height: 400px
-}
-.sectionHTML {
 
+.klasa-z-js {
+  background: blue;
 }
-.sectionHTML__h2{
-  padding: 60px 60px 0 60px
-}
-.bodyHTML{
-  max-width: 600px;
-    margin: auto;
-}
+
+
+

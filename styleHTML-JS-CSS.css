@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *:after {
+    box-sizing:inherit;
+  }
+
+  .navigation {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(255,255,255,0.4);
+      width: auto;
+      height: 40px;
+  }
+  .navigation__link{
+      margin-left: 30px;
+      margin-top: 10px;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .body{
+    background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(12,181,172,1) 18%, rgba(6,134,155,1) 38%, rgba(3,138,181,1) 59%, rgba(0,164,255,1) 79%);
+    height: auto;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+    display: ;
+    flex-direction: ;
+    justify-content: center;
+    background-color: rgb(255,255,255,0.4);
+    align-items: ;
+  }
