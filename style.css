@@ -86,6 +86,14 @@ h1 {
   color: blue;
   padding-left: 110px;
 }
+.notes__Week::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: brown;
+  border-radius: 50%;
+}
 .kalendarz {
   margin: 40px 40px 0 40px;
   border-radius: 20px;
@@ -114,10 +122,12 @@ h1 {
   border: 1px #ccc solid;
   padding: 16px
 }
+.notes__text:hover {
+  background: pink;
+}
 
 .klasa-z-js {
   background: blue;
 }
-
-
+  
 
